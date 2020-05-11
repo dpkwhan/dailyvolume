@@ -20,10 +20,10 @@ log() {
 }
 
 getYears() {
-  startDate=${1}
-  endDate=${2}
-  startYear=$((${startDate:0:4} + 0))
-  endYear=$((${endDate:0:4} + 0))
+  local startDate=${1}
+  local endDate=${2}
+  local startYear=$((${startDate:0:4} + 0))
+  local endYear=$((${endDate:0:4} + 0))
 
   years=()
   for (( y=$startYear; y<=$endYear; y++ ))
