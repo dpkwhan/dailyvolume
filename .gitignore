@@ -1,3 +1,6 @@
 data/
 node_modules/
 package-lock.json
+Java/data/
+Java/target/
+Java/bin/
