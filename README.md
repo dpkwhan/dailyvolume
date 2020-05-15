@@ -4,6 +4,9 @@
 Fetching the U.S. equities daily volume data from [Cboe][Cboe] is implemented in multiple different languages:
 
 - Bash script
+- Java
+- JavaScript
+- Kdb/q
 - Python
 
 The downloaded CSV files are stored under the ``data`` folder, which is in the same folder as the scripts.
