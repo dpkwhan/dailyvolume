@@ -4,3 +4,6 @@ package-lock.json
 Java/data/
 Java/target/
 Java/bin/
+Java/.settings/
+Java/.classpath
+Java/.project
